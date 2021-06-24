@@ -1,0 +1,54 @@
+h1 {
+  width: 30%;
+  transition: 2s ease;
+  transform: rotate(1080deg);
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-bottom: 30px;
+}
+
+audio {
+  display: inline;
+}
+p {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+body {
+  animation: spin 5s infinite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes spin {
+  12.5% {
+    background-color: #ff0000;
+  }
+  25% {
+    background-color: #ffa500;
+  }
+  37.5% {
+    background-color: #ffff00;
+  }
+  50% {
+    background-color: #7fff00;
+  }
+  62.5% {
+    background-color: #00ffff;
+  }
+  75% {
+    background-color: #0000ff;
+  }
+  87.5% {
+    background-color: #9932cc;
+  }
+  100% {
+    background-color: #ff1493;
+  }
+}

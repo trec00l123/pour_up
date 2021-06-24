@@ -1,0 +1,57 @@
+body {
+  background: linear-gradient(
+    to bottom,
+    rgba(102, 225, 234, 1),
+    rgba(221, 247, 251, 1)
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 150%;
+  margin: 4%;
+  min-height: 100vh;
+}
+
+header {
+  text-align: center;
+  background: linear-gradient(
+    to right,
+    rgb(159, 231, 201),
+    rgb(96, 143, 214, 0.3)
+  );
+  border: solid black 5px;
+  padding-bottom: 10px;
+  border-radius: 1000px;
+}
+
+nav > * {
+  display: inline-block;
+  margin-right: 100px;
+  text-decoration: none;
+  color: blue;
+  transition: 0.3s ease-in;
+}
+
+nav > a:hover {
+  color: white;
+}
+
+section {
+  display: inline-block;
+  margin-right: 2%;
+  width: 30%;
+  float: left;
+}
+
+img {
+  width: 125px;
+}
+
+footer {
+  clear: both;
+}
+
+h2 {
+  background: -webkit-linear-gradient(rgb(255, 0, 0), rgb(17, 1, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
